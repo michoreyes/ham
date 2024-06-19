@@ -29,6 +29,10 @@ const Offers = () => {
           <ServiceCard key={service.id} {...service} index={index} />
         ))}
       </div>
+
+      <div className='text-white'>
+        qwe
+      </div>
     </section>
   )
 }
