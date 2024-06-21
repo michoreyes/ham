@@ -3,8 +3,12 @@ import kineme from '../assets/kineme.png';
 import rocket from '../assets/rocket.png';
 import styles from '../style';
 import Button from './Button';
+import { Link } from 'react-router-dom';
+
 
 const Hero = () => {
+
+
   return (
     <div className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center"
       style={{ backgroundImage: `url(${kineme})`, height: '500px' }}>
@@ -14,7 +18,7 @@ const Hero = () => {
 					<div className={`${styles.flexCenter} mt-6`}>
 						<Button laman={'Start with us!'} styles={'z-[100]'}/>
 					</div>
-	
+			
     </div>
   )
 }

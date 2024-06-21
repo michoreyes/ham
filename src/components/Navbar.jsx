@@ -1,12 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import logo from '../assets/qwe.png';
 import Button from './Button';
 import {navLinks} from '../constants'
 import menu from '../assets/menu.svg';
 import close from '../assets/close.svg';
+import { Link, useNavigate } from 'react-router-dom';
 
-const Navbar = () => {
+
+const Navbar = ({style}) => {
 	const [toggle, settoggle] = useState(false)
+	
+	
   return (
     <nav className='w-full flex py-4 justify-between items-center bg-primary'>
 			<div className='flex'>
@@ -15,7 +19,7 @@ const Navbar = () => {
 					{navLinks.map((link, index) => (
 						<li key={link.id} className={`font-[Quicksand] font-medium cursor-pointer text-[16px] 
 						text-white ${index === navLinks.length-1 ? 'mr-0' : 'mr-10'} ${index === 0 ? 'ml-10' : 'ml-0'} 
-						hover:text-dimBlue`}>
+						hover:text-dimBlue ${style}`}>
 							<a href={`#${link.id}`}>{link.title}</a>
 						</li>
 					))}
@@ -24,9 +28,9 @@ const Navbar = () => {
 				
 			</div>
 			
-			<div className='flex'>
-				<Button styles={'sm:block hidden'} laman={'CONTACT US'}/>
-				<div className="md:hidden flex flex-1 justify-end items-center ml-8">
+			<div className={`flex`}>
+				<Button styles={'xs:block hidden'} laman={'CONTACT US'}/>
+				<div className={`${style} md:hidden flex flex-1 justify-end items-center ml-8 `}>
 						<img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain' 
 						onClick={() => settoggle((prev) => !prev)}/>
 
