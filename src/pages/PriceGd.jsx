@@ -142,7 +142,7 @@ const PriceGd = () => {
                 </div>
                 </div>
 								<div className={`mt-10 ${styles.flexCenter}`}>
-									<Button laman={'Back'} onClick={() => navigate('/')}/>
+									<Button laman={'Back'} onClick={() => navigate('/ham')}/>
 								</div>
             </div>
             </div>

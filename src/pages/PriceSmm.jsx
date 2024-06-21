@@ -140,7 +140,7 @@ const PriceSmm = () => {
                 </div>
                 </div>
 								<div className={`mt-10 ${styles.flexCenter}`}>
-									<Button laman={'Back'} styles={'px-10'} onClick={() => navigate('/')}/>
+									<Button laman={'Back'} styles={'px-10'} onClick={() => navigate('/ham')}/>
 								</div>
             </div>
             </div>
