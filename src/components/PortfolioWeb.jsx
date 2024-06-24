@@ -38,7 +38,7 @@ const PortfolioWeb = () => {
     <section className={layout.section}>
 			<div className={layout.sectionInfo}>
 				<h2 className={styles.heading2}>Web Designs</h2>
-				<p className={`max-w-[470px] mt-5 ${styles.desc}`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, laboriosam cum debitis labore nobis in nesciunt aut reiciendis vero architecto!</p>
+				<p className={`max-w-[470px] mt-5 ${styles.desc}`}>HAM Digital Marketing Services crafts user-friendly, visually stunning websites, enhancing online presence with custom, responsive, and modern design solutions.</p>
 			</div>
 
       <div className={`${layout.sectionImg} flex-col`}>

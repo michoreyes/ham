@@ -24,8 +24,7 @@ const Offers = () => {
         <h2 className={styles.heading2}>
           Discover <br className="sm:block hidden"/> what we can offer
         </h2>
-        <p className={`${styles.desc} max-w-[470px] mt-5`}>Lorem ipsum dolor sit amet consectetur 
-          adipisicing elit. Mollitia eum commodi laborum fuga soluta et voluptas error ex pariatur enim.</p>
+        <p className={`${styles.desc} max-w-[470px] mt-5`}>HAM Digital Marketing Services offers exceptional graphic design, web development, and social media management services to elevate your brand's digital presence.</p>
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>

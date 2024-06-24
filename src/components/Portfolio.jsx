@@ -62,7 +62,7 @@ const Portfolio = () => {
 
 			<div className={`${layout.sectionInfo}`}>
 				<h2 className={`${styles.heading2}`}>Graphic Designs</h2>
-				<p className={`max-w-[470px] mt-5 ${styles.desc}`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore assumenda distinctio commodi quisquam. Voluptatum amet dolor repudiandae ex velit id!</p>
+				<p className={`max-w-[470px] mt-5 ${styles.desc}`}>HAM Digital Marketing Services specializes in innovative, eye-catching graphic designs, transforming ideas into stunning visual experiences for all media.</p>
 			</div>
     </section>
   )
