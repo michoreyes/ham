@@ -18,7 +18,7 @@ const Bundles = () => {
                     </div>
                     <p className="mt-4 text-sm leading-6 text-gray-300">Product details for Basic Bundle</p>
                     <p className="mt-6 flex items-baseline gap-x-1">
-                    <span className="text-4xl font-bold tracking-tight text-white">Php 35,000 / month </span><span className="text-sm font-semibold leading-6 text-gray-300"></span>
+                    <span className="text-4xl font-bold tracking-tight text-white">Php 30,000 / month </span><span className="text-sm font-semibold leading-6 text-gray-300"></span>
                     </p>
                     <a href="/order" aria-describedby="product1"
                     className="bg-white/10 text-white hover:bg-white/20 focus-visible:outline-white mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Order
@@ -54,7 +54,7 @@ const Bundles = () => {
                     </div>
                     <p className="mt-4 text-sm leading-6 text-gray-300">The most popular choice. Product details for Standard Bundle</p>
                     <p className="mt-6 flex items-baseline gap-x-1">
-                    <span className="text-4xl font-bold tracking-tight text-white">Php 75,000 / month</span><span className="text-sm font-semibold leading-6 text-gray-300"></span>
+                    <span className="text-4xl font-bold tracking-tight text-white">Php 70,000 / month</span><span className="text-sm font-semibold leading-6 text-gray-300"></span>
                     </p>
                     <a href="/order" aria-describedby="product2"
                     className="bg-indigo-500 text-white shadow-sm hover:bg-indigo-400 focus-visible:outline-indigo-500 mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Order
@@ -89,7 +89,7 @@ const Bundles = () => {
                     </div>
                     <p className="mt-4 text-sm leading-6 text-gray-300">Product details for Premium Bundle</p>
                     <p className="mt-6 flex items-baseline gap-x-1">
-                    <span className="text-4xl font-bold tracking-tight text-white">Php 140,000 / month</span><span className="text-sm font-semibold leading-6 text-gray-300"></span>
+                    <span className="text-4xl font-bold tracking-tight text-white">Php 120,000 / month</span><span className="text-sm font-semibold leading-6 text-gray-300"></span>
                     </p>
                     <a href="/order" aria-describedby="product3"
                     className="bg-white/10 text-white hover:bg-white/20 focus-visible:outline-white mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Order
